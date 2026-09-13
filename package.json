@@ -1,0 +1,16 @@
+{
+  "name": "nova-agent",
+  "version": "1.0.0",
+  "description": "Nova -- a personal AI assistant you run from the terminal: chat, quick one-shot questions, file summarization, and a lightweight personal notes store, backed by the Claude API.",
+  "main": "src/index.js",
+  "bin": {
+    "nova": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}
